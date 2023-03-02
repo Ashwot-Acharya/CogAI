@@ -1,0 +1,89 @@
+
+.Login-form{
+    box-shadow: 5px 8px 10px #ccc;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    background-color: #ece6e6;
+
+}
+.Login-page{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+
+}
+.form-001{
+  display: flex;
+  justify-content: space-between;
+
+}
+.iform {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 10px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+}
+
+.form-extras{
+    font-size: small;
+    display:flex;
+    color: #2155cd;
+    justify-content: space-between;
+}
+
+    
+.button-4 {
+  border: none;
+    border-radius: 6px;
+  box-sizing: border-box;
+  color: #fff;
+  font-weight: 700  ;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  
+  background-color: #47baef;
+  
+}
+
+.button-4:hover {
+  background-color: #1b58d0;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+.text-sm{
+  font-size:x-small;
+}
+.ai-image{
+  object-fit: cover;
+  padding-right: 5px;
+  overflow: hidden;
+}
+.ai-image img{
+  border-radius: 5px;
+  border: #f8f6f6 solid;
+  width: 300px;
+}
+.text-center{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+.myform{
+  padding-left:30px;
+  padding-right:20px;
+  padding-top: 30px;
+
+  background-color: #ece6e6;
+  top: 30%;
+
+}

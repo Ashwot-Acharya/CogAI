@@ -24,7 +24,6 @@ Route::get('/home', function () {
     ]);
 });
 
-Route::get('/',[RoutingController::class , 'loginpage'])->name('loginpage');
-
-
-require __DIR__.'/auth.php';
+Route::get('/login',[RoutingController::class , 'loginpage'])->name('loginpage');
+Route::get('/', [RoutingController::class, 'home'])->name('homepage');
+Route::get('/register',[RoutingController::class,'registerpage'])->name('registerpage');

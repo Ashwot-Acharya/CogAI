@@ -11,4 +11,10 @@ class RoutingController extends Controller
         return Inertia::render('LoginPage');
 
     }
+    public function home(){
+        return Inertia::render('Home');
+    }
+    function registerpage(){
+        return Inertia::render('Register');
+    }
 }
